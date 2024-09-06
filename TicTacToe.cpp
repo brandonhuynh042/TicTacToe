@@ -51,7 +51,7 @@ int main() {
 	cout << "O wins! X has " << x_score << " wins, and O has " << ++o_score << " wins."  << endl;
       }
       else {
-	cout << "There was a tie." << endl;
+	cout << "There was a tie. X has " << x_score << " wins, and O has " << o_score << " wins." << endl;
       }
    // Check if user wants to play again
    cout << "Would you like to play again? Type \'1\' for yes, and \'0\' for no." << endl;
